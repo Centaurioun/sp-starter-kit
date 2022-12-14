@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@microsoft/rush-stack-compiler-2.9 > @microsoft/api-extractor > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/sp-build-core-tasks > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/sp-build-core-tasks > @microsoft/loader-cased-file > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > @microsoft/loader-cased-file > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/sp-build-core-tasks > @microsoft/rush-lib > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > @microsoft/rush-lib > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/sp-build-core-tasks > @microsoft/set-webpack-public-path-plugin > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > @microsoft/set-webpack-public-path-plugin > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build-webpack > webpack > async > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > source-map-loader > async > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build-sass > node-sass > sass-graph > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/sp-build-core-tasks > @microsoft/rush-lib > inquirer > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/sp-build-core-tasks > @microsoft/rush-lib > inquirer > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > jest-runtime > babel-core > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build-sass > node-sass > gaze > globule > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > jest-runtime > babel-core > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-build-web > @microsoft/gulp-core-build > jest-cli > jest-runtime > babel-core > babel-register > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
+    - '@microsoft/sp-webpart-workbench > @microsoft/gulp-core-build-serve > @microsoft/gulp-core-build > jest-cli > jest-runtime > babel-core > babel-register > lodash':
+        patched: '2022-12-14T06:44:33.102Z'
